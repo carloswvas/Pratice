@@ -1,4 +1,4 @@
-# Practice
+# Practice 🖥
 ### Repositório criado para exercitar os conhecimentos no desenvolvimento de aplicações Web
 
 Stacks Utilizadas **HTML, CSS, JS**
