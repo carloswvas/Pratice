@@ -1,34 +1,12 @@
 # Practice
 ### Repositório criado para exercitar os conhecimentos no desenvolvimento de aplicações Web
 
-**Stacks** Utilizadas
-<div style="display: inline_block">
-  <img align="center" alt="Carlos-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Carlos-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Carlos-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-</div>
-<ol>
-    <li>Projeto 01</li>
-    <li>Projeto 02</li>
-</ol>
-<!--
-<div style="display: inline_block"><br>
-  <img align="center" alt="Carlos-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Carlos-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Carlos-Boostrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
-  <img align="center" alt="Carlos-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-</div>
+Stacks Utilizadas **HTML, CSS, JS**
+1. [Projeto Contabilidade](https://github.com/carloswvas/practice/tree/main/projectCont).
+    - Fonte: [Pinterest](https://br.pinterest.com/pin/1119074207383273856/?nic_v3=1a2pP8uUu)
+2. [Projeto Portifólio-Dark](https://github.com/carloswvas/practice/tree/main/projectCont).
+    - Fonte: [Pinterest](https://br.pinterest.com/pin/1119074207383273908/?nic_v3=1a2pP8uUu).
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Carlos-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Carlos-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Carlos-Boostrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
-  <img align="center" alt="Carlos-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Carlos-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Carlos-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Carlos-Nodejs" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
-</div>
+<!-- Stacks Utilizadas **HTML, CSS, JS, Bootstrap 5** -->
 
--->
-
-Todos os projetos desenvolvidos nesse repositório foram desenvolvidos para estudo
+#### Todos os projetos desenvolvidos nesse repositório foram desenvolvidos para estudo
