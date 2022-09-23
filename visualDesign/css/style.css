@@ -11,11 +11,12 @@
   --red-600:#c51a2d;
   --red-800:#62000c;
 
+  --gray-200:#545455;
   --gray-400: #1E1E1E;
   --gray-600:#181818;
 }  
 
-html,body{font-family: 'Roboto', sans-serif; font-size: 1rem;}
+html,body{font-family: 'Roboto', sans-serif; font-size: 1rem; background-color: var(--black-800);}
 *{margin: 0;padding: 0;box-sizing: border-box;}
 
 #header{
@@ -225,6 +226,7 @@ html,body{font-family: 'Roboto', sans-serif; font-size: 1rem;}
   justify-content: space-between;
   flex-wrap: nowrap;
 }
+
 .skill1, .skill2, .skill3{
   width: 32.7%;
   background-color: var(--gray-400);
@@ -282,6 +284,19 @@ html,body{font-family: 'Roboto', sans-serif; font-size: 1rem;}
   line-height: 1.6;
 }
 
+@media only screen and (max-width:768px) {
+  .skills{
+    flex-direction: column;
+  }
+  .skill1, .skill2, .skill3{
+    width: 95%;
+    margin: 2rem 0 1rem;
+  }
+
+  .skill1 .skill-img, .skill2 .skill-img, .skill3 .skill-img{
+    text-align: center;
+  }
+}
 /******************  Fim Skills  *******************/
 
 /******************  Início Experience  *******************/
@@ -312,7 +327,7 @@ html,body{font-family: 'Roboto', sans-serif; font-size: 1rem;}
 
 .box2{
   display: flex;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
   width: 66%;
 }
@@ -335,6 +350,26 @@ html,body{font-family: 'Roboto', sans-serif; font-size: 1rem;}
   font-size: .8rem;
   line-height: 1.6;
 }
+
+@media only screen and (max-width:576px){
+  .experience{
+    flex-direction: column;
+  }
+  .box1{
+    margin: 0;
+  }
+  .box2 {
+    width: 100%;
+    gap: 5px;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .box2 {
+    width: 100%;
+    gap: 5px;
+  }
+}
 /******************  Fim Experience  *******************/
 
 /******************  Fim Main  *******************/
@@ -346,7 +381,7 @@ html,body{font-family: 'Roboto', sans-serif; font-size: 1rem;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:1.5rem 0;
+  padding:2rem 0;
 }
 .tittle-projects div h3{
   font-size: 1.5rem;
@@ -363,3 +398,195 @@ html,body{font-family: 'Roboto', sans-serif; font-size: 1rem;}
   padding: .8rem 1.8rem;
   text-transform: uppercase;
 }
+
+.projects-done{
+  display: flex;
+  justify-content: space-between;
+}
+
+.done-box{
+  width: 49%;
+  margin-bottom: 11rem;
+}
+
+.done-box div{
+  padding: 4rem 1rem;
+  background-color: var(--gray-400);
+}
+
+.done-box div img{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.33);
+}
+
+.done-box h4{
+  font-size: 1.2rem;
+  margin: .5rem 0;
+}
+
+.bg-gray{
+  background-color: var(--gray-600);
+}
+
+.bg-gray .projects-done{
+  position: relative;
+  bottom: 9rem;
+}
+
+.bg-gray .projects-done .done-box{
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:576px) {
+  .tittle-projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .tittle-projects div, .tittle-projects button {
+    width: 98%;
+    margin-bottom: 1rem;
+  }
+
+  .projects-done {
+    flex-direction: column;
+  }
+
+  .done-box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .bg-gray .projects-done{
+    position: static;
+  }
+}
+
+.contact{
+ background-color: var(--black-800); 
+ color: var(--white-300);
+}
+
+.contact-box{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--gray-400);
+  padding: 4rem 2rem;
+  position: relative;
+  bottom: 8rem;
+}
+
+.contact-info{
+  width: 55%;
+}
+
+.contact-info h4{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.contact-button{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-box button{
+  border: none;
+  background-color: var(--red-500);
+  color: var(--white);
+  font-size: 0.7rem;
+  padding: .8rem 1.8rem;
+  text-transform: uppercase;
+}
+
+.contact-menu{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 2rem;
+}
+
+@media only screen and (max-width:576px) {
+  .contact-box{
+    flex-flow: column;
+  }
+  .contact-info{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .contact-button{
+    width: auto;
+  }
+  .contact-button button{
+    width: 100%;
+  }
+  .contact-box{
+    margin-top:3rem;
+    position: static;
+  }
+  .contact-menu .nav-list{
+    display: block;
+    position: relative;
+    bottom: 3rem;
+  }
+  .nav-list ul{
+    display: block;
+  }
+}
+
+
+
+/******************  Início Footer  *******************/
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.footer h4{
+  color: var(--red-500);
+  font-size: 1.5em;
+}
+.footer span{
+  color: var(--gray-200);
+  display: block;
+  font-size: .6em;
+}
+
+.footer-icons a{
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.footer-follow{
+  display: flex;
+  align-items: center;
+}
+.footer-follow a{
+  color: var(--gray-200);
+  margin-left: .5em;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer{
+    flex-flow: column;
+  }
+
+  .footer h4{
+    text-align: center;
+  }
+
+  .footer h4, .footer-icons, .footer-follow{
+    margin: .6em 0;
+  }
+}
+
+/******************  Fim Footer  *******************/
