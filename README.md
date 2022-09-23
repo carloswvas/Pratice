@@ -1,5 +1,5 @@
 # Practice
-## Repositório criado para exercitar os conhecimentos no desenvolvimento de aplicações Web
+### Repositório criado para exercitar os conhecimentos no desenvolvimento de aplicações Web
 Todos os projetos desenvolvidos nesse repositório foram desenvolvidos para estudo
 
 <div style="display: inline_block"><br>
