@@ -42,6 +42,13 @@
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 568px) {
+  .header ul{
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
 li{
   list-style: none;
 }
